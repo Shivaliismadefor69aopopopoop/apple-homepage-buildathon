@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 720" width="1100" height="720" role="img" aria-label="iPad Pro in landscape showing a vivid display">
+  <defs>
+    <linearGradient id="ipadProBody" x1="0.05" y1="0" x2="0.95" y2="1">
+      <stop offset="0" stop-color="#4a4a52"/>
+      <stop offset="0.3" stop-color="#232328"/>
+      <stop offset="0.68" stop-color="#141419"/>
+      <stop offset="1" stop-color="#3c3c45"/>
+    </linearGradient>
+    <linearGradient id="ipadProRim" x1="0" y1="0" x2="1" y2="0.4">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.4"/>
+      <stop offset="0.34" stop-color="#ffffff" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="ipadProWall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00e5ff"/>
+      <stop offset="0.32" stop-color="#4f7bff"/>
+      <stop offset="0.62" stop-color="#b03cff"/>
+      <stop offset="0.84" stop-color="#ff5f8d"/>
+      <stop offset="1" stop-color="#ffb03c"/>
+    </linearGradient>
+    <radialGradient id="ipadProSpark" cx="0.42" cy="0.38" r="0.62">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="0.3" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="0.7" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ipadProSheen" x1="0.05" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.14"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.02"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.1"/>
+    </linearGradient>
+    <radialGradient id="ipadProGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#4f7bff" stop-opacity="0.24"/>
+      <stop offset="0.6" stop-color="#b03cff" stop-opacity="0.1"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="ipadProSoft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="30"/>
+    </filter>
+    <clipPath id="ipadProScreenClip"><rect x="156" y="150" width="788" height="520" rx="16"/></clipPath>
+  </defs>
+
+  <ellipse cx="550" cy="360" rx="540" ry="320" fill="url(#ipadProGlow)"/>
+
+  <!-- thin chassis -->
+  <g>
+    <rect x="140" y="134" width="820" height="552" rx="26" fill="url(#ipadProBody)"/>
+    <rect x="156" y="150" width="788" height="520" rx="16" fill="#05050a"/>
+    <g clip-path="url(#ipadProScreenClip)">
+      <rect x="156" y="150" width="788" height="520" fill="url(#ipadProWall)"/>
+      <ellipse cx="470" cy="330" rx="320" ry="240" fill="url(#ipadProSpark)"/>
+      <ellipse cx="840" cy="580" rx="220" ry="160" fill="#ffffff" opacity="0.16"/>
+      <path d="M156 560 C300 470 420 600 560 500 C700 400 800 520 944 420 L944 670 L156 670 Z"
+            fill="#08081a" opacity="0.28"/>
+      <rect x="156" y="150" width="788" height="520" fill="url(#ipadProSheen)"/>
+      <rect x="196" y="192" width="180" height="14" rx="7" fill="#ffffff" opacity="0.6"/>
+      <rect x="196" y="220" width="110" height="14" rx="7" fill="#ffffff" opacity="0.32"/>
+      <rect x="196" y="600" width="240" height="10" rx="5" fill="#ffffff" opacity="0.4"/>
+      <rect x="196" y="620" width="150" height="10" rx="5" fill="#ffffff" opacity="0.22"/>
+      <circle cx="880" cy="212" r="26" fill="#ffffff" opacity="0.28"/>
+      <circle cx="880" cy="212" r="14" fill="#ffffff" opacity="0.5"/>
+    </g>
+    <rect x="156.8" y="150.8" width="786.4" height="518.4" rx="15.2" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.6"/>
+    <rect x="140.8" y="134.8" width="818.4" height="550.4" rx="25.2" fill="none" stroke="url(#ipadProRim)" stroke-width="1.6"/>
+    <rect x="546" y="138" width="8" height="8" rx="4" fill="#2a2a33"/>
+  </g>
+
+  <!-- screen light spilling onto the tile -->
+  <ellipse cx="550" cy="700" rx="420" ry="24" fill="#4f7bff" opacity="0.16" filter="url(#ipadProSoft)"/>
+</svg>

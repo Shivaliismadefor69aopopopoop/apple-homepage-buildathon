@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" width="900" height="700" role="img" aria-label="AirPods Pro 3 with their charging case">
+  <defs>
+    <linearGradient id="apBody" x1="0.15" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.32" stop-color="#f2f2f5"/>
+      <stop offset="0.68" stop-color="#d5d5db"/>
+      <stop offset="1" stop-color="#bcbcc4"/>
+    </linearGradient>
+    <linearGradient id="apHead" x1="0.2" y1="0.05" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.42" stop-color="#eaeaee"/>
+      <stop offset="1" stop-color="#c3c3cb"/>
+    </linearGradient>
+    <linearGradient id="apCase" x1="0.1" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.3" stop-color="#f4f4f7"/>
+      <stop offset="0.62" stop-color="#dcdce1"/>
+      <stop offset="1" stop-color="#b8b8c0"/>
+    </linearGradient>
+    <linearGradient id="apCaseTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c9c9d1"/>
+      <stop offset="1" stop-color="#f7f7f9"/>
+    </linearGradient>
+    <radialGradient id="apGlow" cx="0.5" cy="0.45" r="0.55">
+      <stop offset="0" stop-color="#7fa8ff" stop-opacity="0.16"/>
+      <stop offset="0.65" stop-color="#c0a8ff" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="apBlur" x="-40%" y="-160%" width="180%" height="420%">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+
+    <g id="apBud">
+      <rect x="-15" y="-16" width="30" height="104" rx="15" fill="url(#apBody)"/>
+      <rect x="-15" y="-16" width="13" height="104" rx="6.5" fill="#ffffff" opacity="0.5"/>
+      <ellipse cx="0" cy="-46" rx="44" ry="40" fill="url(#apHead)"/>
+      <ellipse cx="-16" cy="-62" rx="16" ry="11" fill="#ffffff" opacity="0.75"/>
+      <ellipse cx="4" cy="-38" rx="27" ry="23" fill="#e9e9ee"/>
+      <ellipse cx="4" cy="-38" rx="20" ry="16" fill="#b9b9c1"/>
+      <ellipse cx="4" cy="-38" rx="11" ry="8" fill="#7e8087"/>
+      <ellipse cx="0" cy="-46" rx="44" ry="40" fill="none" stroke="#ffffff" stroke-opacity="0.6" stroke-width="1.2"/>
+      <rect x="-6" y="14" width="12" height="22" rx="6" fill="#8e9199" opacity="0.5"/>
+      <circle cx="0" cy="76" r="5" fill="#a9adb5" opacity="0.6"/>
+    </g>
+  </defs>
+
+  <ellipse cx="450" cy="330" rx="420" ry="300" fill="url(#apGlow)"/>
+  <ellipse cx="450" cy="640" rx="300" ry="20" fill="#5f6b8f" opacity="0.12" filter="url(#apBlur)"/>
+
+  <!-- charging case -->
+  <g>
+    <rect x="268" y="424" width="364" height="232" rx="74" fill="url(#apCase)"/>
+    <path d="M268 498 H632" fill="none" stroke="#9a9aa2" stroke-opacity="0.35" stroke-width="1.6"/>
+    <rect x="268" y="424" width="364" height="80" rx="74" fill="url(#apCaseTop)" opacity="0.55"/>
+    <rect x="286" y="424" width="328" height="46" rx="23" fill="#ffffff" opacity="0.45"/>
+    <rect x="269" y="425" width="362" height="230" rx="73" fill="none" stroke="#ffffff" stroke-opacity="0.7" stroke-width="1.6"/>
+    <rect x="288" y="512" width="324" height="128" rx="56" fill="#ffffff" opacity="0.35"/>
+    <circle cx="450" cy="612" r="7" fill="#c9f5d8"/>
+    <circle cx="450" cy="612" r="7" fill="none" stroke="#8faa9a" stroke-opacity="0.5" stroke-width="1"/>
+  </g>
+
+  <!-- earbuds -->
+  <use href="#apBud" transform="translate(322,318) rotate(-13)"/>
+  <use href="#apBud" transform="translate(578,318) rotate(13)"/>
+</svg>

@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760" role="img" aria-label="MacBook Pro in space black, open and facing forward">
+  <defs>
+    <linearGradient id="mbpLid" x1="0.05" y1="0" x2="0.95" y2="1">
+      <stop offset="0" stop-color="#3a3a3f"/>
+      <stop offset="0.3" stop-color="#1c1c20"/>
+      <stop offset="0.66" stop-color="#0c0c0e"/>
+      <stop offset="1" stop-color="#313137"/>
+    </linearGradient>
+    <linearGradient id="mbpBase" x1="0.1" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#35353b"/>
+      <stop offset="0.36" stop-color="#1a1a1e"/>
+      <stop offset="0.76" stop-color="#101013"/>
+      <stop offset="1" stop-color="#32323a"/>
+    </linearGradient>
+    <linearGradient id="mbpRim" x1="0" y1="0" x2="1" y2="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.36"/>
+      <stop offset="0.34" stop-color="#ffffff" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.24"/>
+    </linearGradient>
+    <radialGradient id="mbpWall" cx="0.3" cy="0.3" r="1.2">
+      <stop offset="0" stop-color="#8a5cff"/>
+      <stop offset="0.34" stop-color="#4a2fd0"/>
+      <stop offset="0.66" stop-color="#1b1660"/>
+      <stop offset="1" stop-color="#07070f"/>
+    </radialGradient>
+    <linearGradient id="mbpSheen" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.02"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.08"/>
+    </linearGradient>
+    <radialGradient id="mbpGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7b5cff" stop-opacity="0.28"/>
+      <stop offset="0.62" stop-color="#4a6bff" stop-opacity="0.1"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="mbpSoft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+    <clipPath id="mbpScreenClip"><rect x="222" y="82" width="756" height="424" rx="5"/></clipPath>
+  </defs>
+
+  <ellipse cx="600" cy="330" rx="500" ry="280" fill="url(#mbpGlow)"/>
+
+  <!-- lid -->
+  <g>
+    <rect x="200" y="60" width="800" height="470" rx="16" fill="url(#mbpLid)"/>
+    <rect x="222" y="82" width="756" height="424" rx="5" fill="#04040a"/>
+    <g clip-path="url(#mbpScreenClip)">
+      <rect x="222" y="82" width="756" height="424" fill="url(#mbpWall)"/>
+      <ellipse cx="380" cy="200" rx="220" ry="180" fill="#c08bff" opacity="0.22"/>
+      <ellipse cx="880" cy="420" rx="240" ry="170" fill="#4fd0ff" opacity="0.16"/>
+      <rect x="222" y="82" width="756" height="424" fill="url(#mbpSheen)"/>
+      <rect x="222" y="82" width="756" height="24" fill="#08080f" opacity="0.5"/>
+      <rect x="240" y="90" width="46" height="6" rx="3" fill="#ffffff" opacity="0.42"/>
+      <rect x="296" y="90" width="30" height="6" rx="3" fill="#ffffff" opacity="0.22"/>
+      <rect x="934" y="90" width="26" height="6" rx="3" fill="#ffffff" opacity="0.22"/>
+      <rect x="378" y="176" width="300" height="16" rx="8" fill="#ffffff" opacity="0.2"/>
+      <rect x="378" y="206" width="210" height="16" rx="8" fill="#ffffff" opacity="0.12"/>
+      <path d="M378 400 L452 344 L526 372 L600 300 L674 340 L748 268 L822 306 L906 236"
+            fill="none" stroke="#7ae0ff" stroke-opacity="0.8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M378 400 L452 344 L526 372 L600 300 L674 340 L748 268 L822 306 L906 236 L906 470 L378 470 Z"
+            fill="#7ae0ff" opacity="0.08"/>
+    </g>
+    <rect x="222.8" y="82.8" width="754.4" height="422.4" rx="4.2" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1.6"/>
+    <rect x="200.8" y="60.8" width="798.4" height="468.4" rx="15.2" fill="none" stroke="url(#mbpRim)" stroke-width="1.6"/>
+    <rect x="562" y="82" width="76" height="15" rx="7.5" fill="#04040a"/>
+    <circle cx="600" cy="89.5" r="3" fill="#101827"/>
+  </g>
+
+  <!-- base -->
+  <g>
+    <ellipse cx="600" cy="620" rx="520" ry="64" fill="#7b5cff" opacity="0.1" filter="url(#mbpSoft)"/>
+    <rect x="212" y="524" width="776" height="10" rx="5" fill="#050507"/>
+    <path d="M200 532 H1000 L1074 594 Q1080 600 1072 600 H128 Q120 600 126 594 Z" fill="url(#mbpBase)"/>
+    <path d="M200 532 H1000" fill="none" stroke="#ffffff" stroke-opacity="0.13" stroke-width="1.2"/>
+    <path d="M368 538 H832 L868 580 H332 Z" fill="#08080b" opacity="0.9"/>
+    <path d="M368 538 H832 L868 580 H332 Z" fill="none" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1"/>
+    <g opacity="0.14" stroke="#ffffff" stroke-width="1">
+      <path d="M360 549 H840"/>
+      <path d="M352 561 H848"/>
+      <path d="M344 573 H856"/>
+    </g>
+    <rect x="130" y="592" width="940" height="12" rx="6" fill="#242429"/>
+    <path d="M136 593 H1064" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1.2"/>
+    <rect x="548" y="590" width="104" height="12" rx="6" fill="#050507"/>
+  </g>
+</svg>

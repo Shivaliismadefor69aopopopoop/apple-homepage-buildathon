@@ -1,0 +1,15 @@
+{
+  "name": "apple-homepage-buildathon",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A premium Apple-inspired product homepage built for the OmniRush Frontier Buildathon.",
+  "type": "module",
+  "scripts": {
+    "start": "node tools/serve.mjs 8000",
+    "test": "node tools/validate.mjs && node --check js/main.js && node --check tools/preview.mjs && node --check tools/test-interactions.mjs",
+    "preview": "node tools/preview.mjs"
+  },
+  "engines": {
+    "node": ">=24.20.0 <25"
+  }
+}

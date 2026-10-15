@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 860" width="1200" height="860" role="img" aria-label="Two iPhone 17 models, one blue and one pink, shown from the front">
+  <defs>
+    <linearGradient id="i17Blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#cfe2f5"/>
+      <stop offset="0.22" stop-color="#8fb6dd"/>
+      <stop offset="0.55" stop-color="#5f8fc4"/>
+      <stop offset="0.8" stop-color="#476f9e"/>
+      <stop offset="1" stop-color="#a8c6e4"/>
+    </linearGradient>
+    <linearGradient id="i17Pink" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbdce4"/>
+      <stop offset="0.24" stop-color="#f0b3c4"/>
+      <stop offset="0.58" stop-color="#dd8ba3"/>
+      <stop offset="0.82" stop-color="#c2708b"/>
+      <stop offset="1" stop-color="#f2c3d0"/>
+    </linearGradient>
+    <linearGradient id="i17Rim" x1="0" y1="0" x2="1" y2="0.4">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.7"/>
+      <stop offset="0.3" stop-color="#ffffff" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.4"/>
+    </linearGradient>
+    <radialGradient id="i17WallA" cx="0.25" cy="0.1" r="1.05">
+      <stop offset="0" stop-color="#63b6ff"/>
+      <stop offset="0.4" stop-color="#4f6bff"/>
+      <stop offset="0.72" stop-color="#8f47e0"/>
+      <stop offset="1" stop-color="#ff8a5c"/>
+    </radialGradient>
+    <radialGradient id="i17WallB" cx="0.3" cy="0.08" r="1.05">
+      <stop offset="0" stop-color="#ffd0dd"/>
+      <stop offset="0.38" stop-color="#ff85ab"/>
+      <stop offset="0.7" stop-color="#a45cf0"/>
+      <stop offset="1" stop-color="#4f6bff"/>
+    </radialGradient>
+    <radialGradient id="i17Halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#5f8fff" stop-opacity="0.13"/>
+      <stop offset="0.6" stop-color="#b06cff" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i17Blur" x="-40%" y="-160%" width="180%" height="420%">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+    <clipPath id="i17ScreenA"><rect x="259" y="118" width="278" height="620" rx="42"/></clipPath>
+    <clipPath id="i17ScreenB"><rect x="659" y="178" width="278" height="620" rx="42"/></clipPath>
+  </defs>
+
+  <ellipse cx="600" cy="450" rx="520" ry="330" fill="url(#i17Halo)"/>
+  <ellipse cx="600" cy="812" rx="380" ry="20" fill="#000000" opacity="0.06" filter="url(#i17Blur)"/>
+
+  <!-- iPhone 17 · blue -->
+  <g>
+    <rect x="250" y="110" width="296" height="636" rx="48" fill="url(#i17Blue)"/>
+    <rect x="259" y="118" width="278" height="620" rx="42" fill="#05070c"/>
+    <g clip-path="url(#i17ScreenA)">
+      <rect x="259" y="118" width="278" height="620" fill="url(#i17WallA)"/>
+      <ellipse cx="330" cy="220" rx="130" ry="120" fill="#9fe0ff" opacity="0.3"/>
+      <ellipse cx="470" cy="640" rx="150" ry="130" fill="#ff7aa8" opacity="0.28"/>
+    </g>
+    <rect x="259.8" y="118.8" width="276.4" height="618.4" rx="41.2" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5"/>
+    <rect x="352" y="132" width="92" height="27" rx="13.5" fill="#05070c"/>
+    <circle cx="430" cy="145.5" r="4.4" fill="#0d1424"/>
+    <rect x="250.8" y="110.8" width="294.4" height="634.4" rx="47.2" fill="none" stroke="url(#i17Rim)" stroke-width="1.6"/>
+    <rect x="246" y="212" width="5" height="22" rx="2.5" fill="#7a97b6"/>
+    <rect x="246" y="262" width="5" height="38" rx="2.5" fill="#7a97b6"/>
+    <rect x="246" y="316" width="5" height="38" rx="2.5" fill="#7a97b6"/>
+    <rect x="545" y="268" width="5" height="50" rx="2.5" fill="#7a97b6"/>
+    <rect x="545" y="340" width="5" height="32" rx="2.5" fill="#7a97b6"/>
+    <rect x="545" y="392" width="5" height="32" rx="2.5" fill="#7a97b6"/>
+    <rect x="343" y="700" width="110" height="5" rx="2.5" fill="#ffffff" opacity="0.55"/>
+  </g>
+
+  <!-- iPhone 17 · pink -->
+  <g>
+    <rect x="650" y="170" width="296" height="636" rx="48" fill="url(#i17Pink)"/>
+    <rect x="659" y="178" width="278" height="620" rx="42" fill="#05070c"/>
+    <g clip-path="url(#i17ScreenB)">
+      <rect x="659" y="178" width="278" height="620" fill="url(#i17WallB)"/>
+      <ellipse cx="730" cy="280" rx="130" ry="120" fill="#ffe0ea" opacity="0.34"/>
+      <ellipse cx="870" cy="700" rx="150" ry="130" fill="#7f6bff" opacity="0.3"/>
+    </g>
+    <rect x="659.8" y="178.8" width="276.4" height="618.4" rx="41.2" fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="1.5"/>
+    <rect x="752" y="192" width="92" height="27" rx="13.5" fill="#05070c"/>
+    <circle cx="830" cy="205.5" r="4.4" fill="#0d1424"/>
+    <rect x="650.8" y="170.8" width="294.4" height="634.4" rx="47.2" fill="none" stroke="url(#i17Rim)" stroke-width="1.6"/>
+    <rect x="646" y="272" width="5" height="22" rx="2.5" fill="#d49aab"/>
+    <rect x="646" y="322" width="5" height="38" rx="2.5" fill="#d49aab"/>
+    <rect x="646" y="376" width="5" height="38" rx="2.5" fill="#d49aab"/>
+    <rect x="945" y="328" width="5" height="50" rx="2.5" fill="#d49aab"/>
+    <rect x="945" y="400" width="5" height="32" rx="2.5" fill="#d49aab"/>
+    <rect x="945" y="452" width="5" height="32" rx="2.5" fill="#d49aab"/>
+    <rect x="743" y="760" width="110" height="5" rx="2.5" fill="#ffffff" opacity="0.55"/>
+  </g>
+</svg>

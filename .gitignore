@@ -1,0 +1,4 @@
+.preview/
+.chrome-*/
+node_modules/
+*.log

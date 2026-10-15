@@ -1,0 +1,6 @@
+.git
+.preview
+.chrome-*
+node_modules
+Dockerfile
+*.log

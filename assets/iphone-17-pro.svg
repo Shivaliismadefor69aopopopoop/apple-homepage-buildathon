@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 820" width="1100" height="820" role="img" aria-label="iPhone 17 Pro in dark titanium, front and back view">
+  <defs>
+    <linearGradient id="heroTi" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7c7c86"/>
+      <stop offset="0.18" stop-color="#3b3b42"/>
+      <stop offset="0.48" stop-color="#17171b"/>
+      <stop offset="0.76" stop-color="#2a2a31"/>
+      <stop offset="1" stop-color="#5c5c66"/>
+    </linearGradient>
+    <linearGradient id="heroTiBack" x1="0.1" y1="0" x2="0.95" y2="1">
+      <stop offset="0" stop-color="#6a6a74"/>
+      <stop offset="0.3" stop-color="#2c2c33"/>
+      <stop offset="0.62" stop-color="#141418"/>
+      <stop offset="1" stop-color="#4a4a53"/>
+    </linearGradient>
+    <linearGradient id="heroEdge" x1="0" y1="0" x2="1" y2="0.35">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="0.35" stop-color="#ffffff" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.32"/>
+    </linearGradient>
+    <radialGradient id="heroWall" cx="0.22" cy="0.12" r="1.05">
+      <stop offset="0" stop-color="#2f6bff"/>
+      <stop offset="0.36" stop-color="#6a2fd0"/>
+      <stop offset="0.68" stop-color="#c23a8e"/>
+      <stop offset="1" stop-color="#ff7a2f"/>
+    </radialGradient>
+    <linearGradient id="heroSheen" x1="0.05" y1="0" x2="0.95" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="0.42" stop-color="#ffffff" stop-opacity="0.03"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.1"/>
+    </linearGradient>
+    <linearGradient id="heroSheen2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="heroHall" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2f6bff" stop-opacity="0.15"/>
+      <stop offset="0.55" stop-color="#8f6bff" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="heroLens" cx="0.32" cy="0.28" r="0.85">
+      <stop offset="0" stop-color="#3d5b8c"/>
+      <stop offset="0.42" stop-color="#131a28"/>
+      <stop offset="1" stop-color="#04060a"/>
+    </radialGradient>
+    <radialGradient id="heroFlash" cx="0.4" cy="0.35" r="0.8">
+      <stop offset="0" stop-color="#fffdf6"/>
+      <stop offset="0.7" stop-color="#f3e6c4"/>
+      <stop offset="1" stop-color="#c9b782"/>
+    </radialGradient>
+    <filter id="heroBlur" x="-40%" y="-160%" width="180%" height="420%">
+      <feGaussianBlur stdDeviation="24"/>
+    </filter>
+    <clipPath id="heroScreenClip">
+      <rect x="210" y="50" width="310" height="680" rx="46"/>
+    </clipPath>
+  </defs>
+
+  <!-- ambient halo -->
+  <ellipse cx="550" cy="430" rx="520" ry="360" fill="url(#heroHall)"/>
+
+  <!-- grounding -->
+  <ellipse cx="545" cy="786" rx="360" ry="22" fill="#000000" opacity="0.07" filter="url(#heroBlur)"/>
+
+  <!-- back device: camera plateau in full view -->
+  <g>
+    <rect x="560" y="92" width="330" height="700" rx="54" fill="url(#heroTiBack)"/>
+    <rect x="560.75" y="92.75" width="328.5" height="698.5" rx="53.25" fill="none" stroke="url(#heroEdge)" stroke-width="1.5"/>
+    <rect x="588" y="120" width="176" height="176" rx="46" fill="#22222a"/>
+    <rect x="588.6" y="120.6" width="174.8" height="174.8" rx="45.4" fill="none" stroke="#ffffff" stroke-opacity="0.09" stroke-width="1.2"/>
+    <circle cx="640" cy="172" r="36" fill="url(#heroLens)"/>
+    <circle cx="640" cy="172" r="35" fill="none" stroke="#8fb4e8" stroke-opacity="0.28" stroke-width="1.4"/>
+    <circle cx="629" cy="161" r="9" fill="#cfe2ff" opacity="0.22"/>
+    <circle cx="712" cy="172" r="36" fill="url(#heroLens)"/>
+    <circle cx="712" cy="172" r="35" fill="none" stroke="#8fb4e8" stroke-opacity="0.28" stroke-width="1.4"/>
+    <circle cx="701" cy="161" r="9" fill="#cfe2ff" opacity="0.22"/>
+    <circle cx="640" cy="244" r="36" fill="url(#heroLens)"/>
+    <circle cx="640" cy="244" r="35" fill="none" stroke="#8fb4e8" stroke-opacity="0.28" stroke-width="1.4"/>
+    <circle cx="629" cy="233" r="9" fill="#cfe2ff" opacity="0.22"/>
+    <circle cx="712" cy="244" r="15" fill="url(#heroFlash)"/>
+    <circle cx="676" cy="208" r="9" fill="#101418"/>
+    <circle cx="676" cy="208" r="8.2" fill="none" stroke="#89a6c9" stroke-opacity="0.3" stroke-width="1"/>
+    <rect x="898" y="212" width="5" height="52" rx="2.5" fill="#4b4b54"/>
+    <rect x="898" y="286" width="5" height="34" rx="2.5" fill="#4b4b54"/>
+    <rect x="898" y="340" width="5" height="34" rx="2.5" fill="#4b4b54"/>
+    <rect x="547" y="150" width="5" height="24" rx="2.5" fill="#4b4b54"/>
+    <rect x="547" y="204" width="5" height="40" rx="2.5" fill="#4b4b54"/>
+    <rect x="547" y="258" width="5" height="40" rx="2.5" fill="#4b4b54"/>
+  </g>
+
+  <!-- front device: display-on, with the Pro camera control -->
+  <g>
+    <rect x="200" y="40" width="330" height="700" rx="54" fill="url(#heroTi)"/>
+    <rect x="210" y="50" width="310" height="680" rx="46" fill="#05060a"/>
+    <g clip-path="url(#heroScreenClip)">
+      <rect x="210" y="50" width="310" height="680" fill="url(#heroWall)"/>
+      <ellipse cx="268" cy="150" rx="150" ry="130" fill="#7fd0ff" opacity="0.34"/>
+      <ellipse cx="430" cy="640" rx="170" ry="160" fill="#ff5f8d" opacity="0.3"/>
+      <ellipse cx="330" cy="430" rx="200" ry="170" fill="#5b2fd0" opacity="0.28"/>
+      <g transform="rotate(-24 365 390)">
+        <rect x="120" y="-40" width="520" height="420" fill="url(#heroSheen)"/>
+      </g>
+      <rect x="210" y="50" width="310" height="330" fill="url(#heroSheen2)"/>
+    </g>
+    <rect x="210.9" y="50.9" width="308.2" height="678.2" rx="45.2" fill="none" stroke="#ffffff" stroke-opacity="0.14" stroke-width="1.6"/>
+    <rect x="313" y="66" width="104" height="30" rx="15" fill="#04060a"/>
+    <circle cx="401" cy="81" r="5" fill="#0d1424"/>
+    <circle cx="401" cy="81" r="4.2" fill="none" stroke="#5b7fa8" stroke-opacity="0.35" stroke-width="0.9"/>
+    <rect x="200.75" y="40.75" width="328.5" height="698.5" rx="53.25" fill="none" stroke="url(#heroEdge)" stroke-width="1.5"/>
+    <rect x="196" y="150" width="5" height="24" rx="2.5" fill="#4b4b54"/>
+    <rect x="196" y="204" width="5" height="40" rx="2.5" fill="#4b4b54"/>
+    <rect x="196" y="258" width="5" height="40" rx="2.5" fill="#4b4b54"/>
+    <rect x="529" y="212" width="5" height="52" rx="2.5" fill="#4b4b54"/>
+    <rect x="529" y="286" width="5" height="34" rx="2.5" fill="#4b4b54"/>
+    <rect x="529" y="340" width="5" height="34" rx="2.5" fill="#4b4b54"/>
+    <rect x="305" y="702" width="120" height="5" rx="2.5" fill="#ffffff" opacity="0.5"/>
+  </g>
+</svg>

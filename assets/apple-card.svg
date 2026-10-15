@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" width="900" height="560" role="img" aria-label="Apple Card in titanium, seen at a slight angle">
+  <defs>
+    <linearGradient id="acTitanium" x1="0.05" y1="0" x2="0.95" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.22" stop-color="#f7f7f9"/>
+      <stop offset="0.5" stop-color="#e9e9ee"/>
+      <stop offset="0.78" stop-color="#d3d3da"/>
+      <stop offset="1" stop-color="#efeff3"/>
+    </linearGradient>
+    <linearGradient id="acRainbow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffd36f" stop-opacity="0.75"/>
+      <stop offset="0.25" stop-color="#ff9ec4" stop-opacity="0.7"/>
+      <stop offset="0.5" stop-color="#9fa8ff" stop-opacity="0.65"/>
+      <stop offset="0.75" stop-color="#7ee0d0" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#ffe6a8" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="acSheen" x1="0.05" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="0.42" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.6"/>
+    </linearGradient>
+    <radialGradient id="acGlow" cx="0.5" cy="0.5" r="0.55">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="0.6" stop-color="#8f6bff" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="acBlur" x="-40%" y="-160%" width="180%" height="420%">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="450" cy="290" rx="420" ry="250" fill="url(#acGlow)"/>
+  <ellipse cx="450" cy="510" rx="300" ry="20" fill="#ffffff" opacity="0.08" filter="url(#acBlur)"/>
+
+  <g transform="rotate(-7 450 280)">
+    <!-- titanium body -->
+    <rect x="180" y="130" width="540" height="340" rx="26" fill="url(#acTitanium)"/>
+    <rect x="181" y="131" width="538" height="338" rx="25.4" fill="none" stroke="url(#acRainbow)" stroke-width="2.2"/>
+    <rect x="188" y="138" width="524" height="324" rx="20" fill="none" stroke="#ffffff" stroke-opacity="0.85" stroke-width="1.4"/>
+    <rect x="180" y="130" width="540" height="120" rx="26" fill="url(#acSheen)"/>
+    <rect x="180" y="226" width="540" height="4" fill="#c9c9d1" opacity="0.35"/>
+
+    <!-- Apple mark -->
+    <g transform="translate(228,176) scale(0.056)">
+      <path fill="#9a9aa2" d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/>
+    </g>
+
+    <!-- embossed card holder line -->
+    <rect x="228" y="330" width="240" height="18" rx="9" fill="#ffffff" opacity="0.9"/>
+    <rect x="228" y="330" width="240" height="18" rx="9" fill="none" stroke="#c4c4cc" stroke-opacity="0.5" stroke-width="1"/>
+    <rect x="228" y="368" width="140" height="12" rx="6" fill="#e2e2e8"/>
+    <rect x="228" y="368" width="140" height="12" rx="6" fill="none" stroke="#c4c4cc" stroke-opacity="0.4" stroke-width="1"/>
+
+    <!-- contactless waves -->
+    <g transform="translate(636,214)" fill="none" stroke="#a9a9b2" stroke-width="3" stroke-linecap="round">
+      <path d="M0 0 a10 10 0 0 1 0 16"/>
+      <path d="M10 -6 a20 20 0 0 1 0 28"/>
+      <path d="M20 -12 a30 30 0 0 1 0 40"/>
+    </g>
+  </g>
+</svg>
